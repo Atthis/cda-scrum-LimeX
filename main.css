@@ -12,12 +12,12 @@ header p {
   font-style: normal;
 }
 
-section h2:not(.cta-shop),
+section h2,
 div.carousel-wrapper h2 {
   position: relative;
 }
 
-h2::after {
+h2:not(.cta-shop):after {
   content: "";
   position: absolute;
   bottom: -5px;
