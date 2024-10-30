@@ -1,7 +1,4 @@
-const colorVariantes = document.querySelectorAll('#color-carousel article');
-const previousArrow = document.querySelector('#carousel-prev');
-const nextArrow = document.querySelector('#carousel-next');
-
+// carousel src : https://codepen.io/marcusmichaels/pen/yGGoLM?editors=0110
 !(function(d){
   console.log(d)
   // Variables to target our base class,  get carousel items, count how many carousel items there are, set the slide to 0 (which is the number that tells us the frame we're on), and set motion to true which disables interactivity.

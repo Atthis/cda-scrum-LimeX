@@ -6,6 +6,27 @@
   --pink: #FF36AB;
 }
 
+header p {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section h2,
+div.carousel-wrapper h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 150px;
+  height: 8px;
+  background-color: #D8E54E;
+}
+
 /* Parent wrapper to carousel. Width can be changed as needed. */
 .carousel-wrapper {
   width: 50%;
