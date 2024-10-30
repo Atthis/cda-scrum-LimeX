@@ -8,11 +8,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./tailwindconf.js" defer></script>
     <script src="./app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <img>
+    <header class="bg-green px-6 py-4">
+        <p class="text-xl text-white">SuperPhone</p>
         <h1></h1>
     </header>
 
@@ -23,10 +26,11 @@
             <source src="galaxy-z-fold6-features-highlights-note-assist.webm" type="video/webm">
         </video>
     </section>
-    
+
 
      <!-- Carrousel -->
     <div class="carousel-wrapper mx-auto relative">
+        <h2 class="text-left mb-4 text-xl uppercase">Les déclinaisons de couleur</h2>
         <section class="carousel scroll-smooth" id="color-carousel">
             <button class="carousel__button--prev bg-green text-white" id="carousel-prev"></button>
             <article class="carousel__photo">
@@ -78,7 +82,7 @@
 
      <!-- Détail techniques -->
      <section class="flex flex-col items-center">
-        <h2 class="text-left w-1/2 mb-4 text-xl underline">DÉTAIL TECHNIQUES</h2>
+        <h2 class="text-left w-1/2 mb-4 text-xl">DÉTAIL TECHNIQUES</h2>
         <div class="flex justify-center w-full">
             <table class="w-1/2">
                 <th class="border-r border-black p-2 "></th>
@@ -88,7 +92,7 @@
                 <th class="border-r border-black p-2 text-center">Version 4</th>
                 <th class="border-r border-black p-2 text-center">Version 5</th>
             </tr>
-        
+
             <tr class="bg-green">
                 <td class="border-r border-black p-2 text-center text-white"><b>RAM</b></td>
                 <td class="border-r border-black p-2 text-center text-white">8 Go</td>
@@ -155,7 +159,7 @@
             </tr>
         </table>
         </div>
-        
+
     </section>
 
      <!-- Accessoires -->
