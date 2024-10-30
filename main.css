@@ -12,7 +12,7 @@ header p {
   font-style: normal;
 }
 
-section h2,
+section h2:not(.cta-shop),
 div.carousel-wrapper h2 {
   position: relative;
 }
