@@ -27,6 +27,10 @@ h2::after {
   background-color: #D8E54E;
 }
 
+section.bg-purple h2::after {
+  background-color: #FAFAFA;
+}
+
 /* Parent wrapper to carousel. Width can be changed as needed. */
 .carousel-wrapper {
   width: 50%;
